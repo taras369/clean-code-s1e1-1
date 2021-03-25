@@ -21,7 +21,7 @@ body {
   .info { text-align: center;
   }
 }
-.main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -133,7 +133,7 @@ button.delete_btn img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
   text-decoration: line-through
   color: #888;
 }
@@ -143,11 +143,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul li.edit label {
   display:none;
 }
