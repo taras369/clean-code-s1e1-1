@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.info img {
+.info info__img {
   width: 100%;
 }
 
-.info .more__link {
+.info .info__link {
   font-family: fantasy, cursive;
 }
 
@@ -34,13 +34,13 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.list-item__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row__wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -49,8 +49,8 @@ ul {
   padding: 0px;
 }
 
-li,
-h3 {
+.list-item,
+add-task__title {
   list-style: none;
 }
 
@@ -74,7 +74,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.add-task__title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -130,7 +130,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.task__checkbox {
   margin: 0 10px;
 }
 
